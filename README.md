@@ -1,4 +1,4 @@
-![](Yet%20another%20shitty%20carbon%20filter.png)
+![](Yet%20another%20shitty%20carbon%20filter.jpg)
 
 # Why yet another design?
 
@@ -50,6 +50,8 @@ The ventilation holes at the air outlet on the body where designed to mostly con
 ![](Yet%20another%20shitty%20carbon%20filter%20-%20body%20-%20air%20outlet.png)
 
 I filled my shitty carbon filter with non-acidic activated 4mm carbon pellets that I ordered from a local aquarium store. Fill the filter body up to the top most inner supports, which is about 1cm from the top.
+
+![](Yet%20another%20shitty%20carbon%20filter%20-%20body%20-%20filled%20with%20carbon.jpg)
 
 I print mainly with ASA which smells bad during printing. When the shitty carbon filter is no longer able to remove the smell I replace the carbon pellets. The [Nevermore github repository](https://github.com/nevermore3d/Nevermore_Micro) has an interesting read about VOCs.
 
