@@ -38,7 +38,21 @@ You can use 2 M3x8 (up to M3x65) screws to mount the lid to the body. Use 2 M3x2
 
 # Electronics
 
-Use your skills to connect the 5015 blower fan to whatever fitting power source. I used a 24V 5015 blower fan connected to a switchable 12V power source in my 3d-printer motherboard. I added some inline connector for easyer disassembly. I then configured it in klipper as a `controller_fan` with an idle timeout of 3600 seconds.
+Use your skills to connect the 5015 blower fan to whatever fitting power source. I used a 24V 5015 blower fan connected to my 3d-printer motherboard. I added an inline connector for easy disassembly. I then configured it in klipper as a `controller_fan` like this:
+
+```ini
+[controller_fan carbon_filter]
+##  yet another shitty carbon filter - FAN3
+pin: PD13
+max_power: 1.0
+shutdown_speed: 0.0
+kick_start_time: 5.0
+heater: extruder
+fan_speed: 0.75
+idle_timeout: 900
+```
+
+Customize `pin` to the real pin you use.
 
 There is a slot in the lid to thread a ty-rap through, use it to add strain relief to for the wires to the fan:
 ![](Yet%20another%20shitty%20carbon%20filter%20-%20lid%20with%205015%20fan%20-%20ty-rap.png)
