@@ -26,7 +26,7 @@ The 2 screw holes for the 1515 and 2020 mount that connect to the extrusion will
 
 The [Ultimaker 2 mount needs 2 heat set inserts](Yet%20another%20shitty%20carbon%20filter%20-%20Ultimaker%202%20mount%20-%20showing%20heat%20set%20inserts.jpg). Then screw with 2x M3x10 (or M3x12) from [below the bottom panel on the lower right](Yet%20another%20shitty%20carbon%20filter%20-%20Ultimaker%202%20mount%20-%20mounted.jpg).
 
-Print `Yet another shitty carbon filter - body.stl`. You may want to use a brim if lifting is a problem. Slight lifting is not a problem.
+Print `Yet another shitty carbon filter - body.stl`. You may want to use a brim if lifting is a problem. Slight lifting is not a problem. Do you have a multi material unit or multi extruder? Then print `Yet another shitty carbon filter - body - text (MMU).stl` at the same time as the body but configure it to print in the accent color.
 
 Melt 2 heat set inserts M3x5x4mm into the holes they fit in:
 
